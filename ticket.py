@@ -11,16 +11,6 @@ if(len(n1)>=3 and len(n1)<=7):
     d2=n1[j+1:]
     if len(d1)>=1 and len(d1)<=3 and len(d2)>=1 and len(d2)<=3:
         print("the first no.is",d1,"second number is",d2)
-        length=len(d1)
-        lent=len(d2)
-        if length >3:
-            print("4th charater must be a,m,d,s")
-        elif length <1:
-           print("there is a digit required")
-        elif lent > 3:
-           print("there must be 3 digit")
-        elif lent<1:
-           print("there is a digit required")
         def sum(a,b):
             print("sum is= ",a+b)
         def subs(a,b):
